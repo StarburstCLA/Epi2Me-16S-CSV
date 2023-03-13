@@ -3,7 +3,7 @@ Hosting of Deprecated Code from Nanopore Epi2Me Labs for Analysis of CSV Files, 
 
 This is intended to be used on the .CSV files downloaded from the web portal of Epi2Me Agent after running "Fastq 16S". Last tested on Fastq 16S 2022.01.07
 
-To run the tutorial import the .ipynb Jupyter Notebook file into Epi2Me Labs implementation of Jupyter Notebooks. This can be achieved by placing the file in epi2me-resources/tutorials/  with the other tutorial notebooks or just drag and drop or copy and pasting into a new notebook page. Then you can run the code directly in Epi2Me Labs as described here https://labs.epi2me.io/labsquickstart#running-a-tutorial.
+To run the tutorial import the .ipynb Jupyter Notebook file into Epi2Me Labs implementation of Jupyter Notebooks. This can be achieved by placing the file in epi2me-resources/tutorials/  with the other tutorial notebooks or just drag and drop or copy and pasting into a new notebook page. Then you can run the code directly in Epi2Me Labs as described here https://labs.epi2me.io/labsquickstart#running-a-tutorial. A .pdf is included for easy reading without import and to compare to ensure it is displaying properly. 
 
 The notebook adds better lineage information than is downloaded in the .CSV file (but appears present on the online portal).
 
