@@ -5,7 +5,7 @@ This is intended to be used on the .CSV files downloaded from the web portal of 
 
 To run the tutorial import the .ipynb Jupyter Notebook file into Epi2Me Labs implementation of Jupyter Notebooks. This can be achieved by placing the file in epi2me-resources/tutorials/  with the other tutorial notebooks or just drag and drop or copy and pasting into a new notebook page. Then you can run the code directly in Epi2Me Labs as described here https://labs.epi2me.io/labsquickstart#running-a-tutorial.
 
-The notebook adds better lineage information that is downloaded in the .CSV file (but appears present on the online portal).
+The notebook adds better lineage information than is downloaded in the .CSV file (but appears present on the online portal).
 
 
 R_CSV_Fixing_Script 
