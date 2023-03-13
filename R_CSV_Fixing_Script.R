@@ -1,4 +1,6 @@
-library(dplyr)
+install(tidyverse)
+library(tidyverse)
+
 
 data <- read.csv("yourpath")
 
