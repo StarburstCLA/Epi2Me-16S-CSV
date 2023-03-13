@@ -11,6 +11,8 @@ The notebook adds better lineage information than is downloaded in the .CSV file
 R_CSV_Fixing_Script 
 In some cases the Fastq 16S results in strange behaviour thought to be due to Kraken2 where data is present in species_name but not in species or genus. This R script  coppies data missing to the Genus and Species columns. It breaks the data into multiple parts using dplyr then reasembles them with a check to make sure no new rows have been created. This method is used as it is considerably faster than looping through all data. 
 
+Note this does not bring across family data if that is not present in the family column.
+
 The Data for this script should be the output of the .ipynb tutorial. 
 
 The results can be fed back into the .ipynb tutorial by putting 
