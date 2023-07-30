@@ -13,8 +13,8 @@ This is origional to this script by Epi2ME before I rescued it, however these ca
 The notebook adds better lineage information than is downloaded in the .CSV file from Epi2Me Agent (but appears present on the online portal).
 
 
-R_CSV_Fixing_Script 
-In some cases the Fastq 16S results in strange behaviour thought to be due to Kraken2 where data is present in species_name but not in species or genus. This R script  coppies data missing to the Genus and Species columns. It breaks the data into multiple parts using dplyr then reasembles them with a check to make sure no new rows have been created. This method is used as it is considerably faster than looping through all data. 
+# R_CSV_Fixing_Script
+In some cases the Fastq 16S analysis in Epi2Me Agent results in strange behaviour thought to be due to Kraken2 where data is present in "species_name" but not in "species" or "genus". This R script copies data missing to the Genus and Species columns. It breaks the data into multiple parts using dplyr then reasembles them with a check to make sure no new rows have been created. This method is used as it is considerably faster than looping through all data. 
 
 Note this does not bring across family data if that is not present in the family column.
 
@@ -24,4 +24,4 @@ The results can be fed back into the .ipynb tutorial by putting
 annotated output =  "yourpathtoscriptoutput" 
 before the last tutorial box to return your fixed data from the script and use the tutorials summary function.
 
-All content worked at last usage 2022 November. 
+All content worked at last usage 2023 March. 
