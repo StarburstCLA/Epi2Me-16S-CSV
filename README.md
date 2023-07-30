@@ -10,7 +10,7 @@ VBox(children=(HBox(children=(Label(value='Use sample data', layout=Layout(width
 
 This is origional to this script by Epi2ME before I rescued it, however these can or possibly should be moved back into the correct location when you use it. A corrected version by me may folow. 
 
-The notebook adds better lineage information than is downloaded in the .CSV file (but appears present on the online portal).
+The notebook adds better lineage information than is downloaded in the .CSV file from Epi2Me Agent (but appears present on the online portal).
 
 
 R_CSV_Fixing_Script 
