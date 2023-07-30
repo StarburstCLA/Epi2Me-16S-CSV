@@ -8,7 +8,7 @@ To run the tutorial import the .ipynb Jupyter Notebook file into Epi2Me Labs imp
 and
 VBox(children=(HBox(children=(Label(value='Use sample data', layout=Layout(width='150px')), interactive(childr…
 
-This is origional to this script by Epi2ME beofre I rescued it, however these can or possibly should be moved back into the correct location when you use it. A corrected version by me may folow. 
+This is origional to this script by Epi2ME before I rescued it, however these can or possibly should be moved back into the correct location when you use it. A corrected version by me may folow. 
 
 The notebook adds better lineage information than is downloaded in the .CSV file (but appears present on the online portal).
 
